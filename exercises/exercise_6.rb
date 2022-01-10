@@ -18,3 +18,11 @@ puts "----------"
 # 4. Go ahead and create some more employees using the create method. You can do this by making multiple calls to create (like you have before.) No need to assign the employees to variables though. Create them through the `@store#` instance variables that you defined in previous exercises. Create a bunch under `@store1` (Burnaby) and `@store2` (Richmond). Eg: `@store1.employees.create(...)`.
 
 # Your code goes here ...
+
+@store1.employees.create(first_name: "Arushi", last_name: "Katyal", hourly_rate: 60)
+
+@store1.employees.create(first_name: "John", last_name: "Doe", hourly_rate: 10)
+
+@store1.employees.create(first_name: "Jane", last_name: "Smith", hourly_rate: 50)
+
+@store1.employees.create(first_name: "Lola", last_name: "Rosa", hourly_rate: 30)
